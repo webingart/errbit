@@ -20,6 +20,7 @@ namespace :spec do
     Rails.env = tmp_env
   end
 end
-
-Rake::Task["spec"].prerequisites.push("spec:prepare")
-task :default => ['spec']
+if Rake::Task.task_defined?(:spec)
+  Rake::Task["spec"].prerequisites.push("spec:prepare")
+  task :default => ['spec']
+end
