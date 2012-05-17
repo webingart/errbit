@@ -22,6 +22,7 @@ gem 'actionmailer_inline_css', "~> 1.3.0"
 gem 'kaminari'
 gem 'rack-ssl-enforcer'
 gem 'fabrication', "~> 1.3.0"   # Both for tests, and loading demo data
+gem 'therubyracer'
 
 platform :ruby do
   gem 'mongo', '= 1.3.1'
