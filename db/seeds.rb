@@ -1,3 +1,4 @@
+# encoding: utf-8
 puts "Seeding database"
 puts "-------------------------------"
 
