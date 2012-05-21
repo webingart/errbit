@@ -43,7 +43,7 @@ set :passenger_max_instances, 4
 # avsak zde byt, jinak by se deploy interaktivne dotazoval na tato nastaveni
 set :application, application_base_name
 set :domain, "errors.webingart.cz" # hlavni domena (bez www, zbytek se sestavi sam, mozno menit v config/deploy slozce)
-set :custom_domains, ""
+set :custom_domains, "errors.webingart.cz"
 
 # toto je definice vlastnich sdilenych adresaru, tj. tech, ktere pri deploy zustavaji bez zmeny, napr. zde mame 'uploads'
 set :shared_dirs, %w(tmp/sessions)
