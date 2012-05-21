@@ -3,7 +3,7 @@ puts "Seeding database"
 puts "-------------------------------"
 
 # Create an initial Admin User
-admin_username = "errbit"
+admin_username = "admin@errbit.com"
 admin_email = "errbit"
 admin_pass  = 'password'
 
